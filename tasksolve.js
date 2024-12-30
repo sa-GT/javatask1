@@ -91,7 +91,11 @@ let Favorite_Movie=["shooter","loard of ring","ip Man","war"]
 // console.log(arrs.toString())
 // arrs.push(10)
 
-
+var arrs=[]
+for(let i = 1 ; i <= 10;i++){
+    arrs.push(i)
+    console.log(arrs.toString());
+}
 
 
 
