@@ -1,17 +1,17 @@
 // zakat
-var x = (250 * 2.5)/100
-console.log(x)
+// var x = (250 * 2.5)/100
+// console.log(x)
 // array 1 --> 
-let r =[ 1,7,9,45]
-let s =["Str","alex","moh",'the','fox','over',"lazy", 'dog']
+// let r =[ 1,7,9,45]
+// let s =["Str","alex","moh",'the','fox','over',"lazy", 'dog']
 // array 2
 // var fruits=["Tomato","Banana","Watermelon"]
 // console.log(fruits.indexOf("Tomato"));
 // console.log(fruits.indexOf("Banana"));
 //Create array
-let Favorite_food=["malokhia","mgdara","qabsa"]
-let Favorite_Sport=["swimming","footbal","Nan","ride horse"]
-let Favorite_Movie=["shooter","loard of ring","ip Man","war"]
+// let Favorite_food=["malokhia","mgdara","qabsa"]
+// let Favorite_Sport=["swimming","footbal","Nan","ride horse"]
+// let Favorite_Movie=["shooter","loard of ring","ip Man","war"]
 //First value in array
 // var array=[1,4,5]
 // var vv =array[2]
@@ -43,7 +43,7 @@ let Favorite_Movie=["shooter","loard of ring","ip Man","war"]
 // --------------------------------------------------------------------
 //8 Question :
 // var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ]
-// arr1.sort()
+// arr1.sort((a,b) => a - b)
 // console.log(arr1)
 //--------------------------------------------------------------------
 //9 Question 
@@ -91,11 +91,11 @@ let Favorite_Movie=["shooter","loard of ring","ip Man","war"]
 // console.log(arrs.toString())
 // arrs.push(10)
 
-var arrs=[]
-for(let i = 1 ; i <= 10;i++){
-    arrs.push(i)
-    console.log(arrs.toString());
-}
+// var arrs=[]
+// for(let i = 1 ; i <= 10;i++){
+//     arrs.push(i)
+//     console.log(arrs.toString());
+// }
 
 
 

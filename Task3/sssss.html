@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Change Example</title>
+</head>
+<body>
+    <select id="font-family" onchange="change()">
+        <option value="op1">Times New Roman</option>
+        <option value="op2">Georgia</option>
+        <option value="op3">Arial</option>
+    </select>
+    <p id="demo">This is some text that will change font.</p>
+
+    <script>
+        // Function that changes the font of the paragraph based on the selected option
+        function change() {
+            let element = document.getElementById("font-family");  // Get the dropdown element
+            let docs = document.getElementById("demo");  // Get the paragraph element
+            let selectedOption = element.value;  // Get the selected value from the dropdown
+
+            // Change the font based on the selected value
+            if (selectedOption === "op1") {
+                docs.style.fontFamily = "Times New Roman";
+            } else if (selectedOption === "op2") {
+                docs.style.fontFamily = "Georgia";
+            } else if (selectedOption === "op3") {
+                docs.style.fontFamily = "Arial";
+            }
+        }
+    </script>
+
+</body>
+</html>

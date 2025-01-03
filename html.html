@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Change Font Size</title>
+    <style>
+        #demo {
+            background-color: lightblue;
+            padding: 20px;
+            transition: font-size 0.3s ease;
+        }
+    </style>
 </head>
 <body>
-    <script src="tasksolve.js"></script>
+
+    <select id="sizeSelect" onchange="changeFontSize()">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select>
+
+    <div id="demo">This is a demo text.</div>
+
+    <script>
+        function changeFontSize() {
+            const size = document.getElementById('sizeSelect').value;
+            const demo = document.getElementById('demo');
+
+            if (size === 'small') {
+                demo.style.fontSize = '12px';
+            } else if (size === 'medium') {
+                demo.style.fontSize = '18px';
+            } else if (size === 'large') {
+                demo.style.fontSize = '24px';
+            }
+        }
+    </script>
+
 </body>
 </html>
